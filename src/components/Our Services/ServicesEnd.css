@@ -1,8 +1,9 @@
-.ServicesEnd{
+@media only screen and (min-width: 780px) {
+  .ServicesEnd {
     position: relative;
-    top: 5vh;  
-}
-.ServicesEnd-Context{
+    top: 5vh;
+  }
+  .ServicesEnd-Context {
     position: relative;
     width: 80%;
     margin: auto;
@@ -11,38 +12,38 @@
     align-items: center;
     flex-wrap: wrap;
     /* border: 2px solid blue; */
-}
-.ServicesEnd-Context h1{
+  }
+  .ServicesEnd-Context h1 {
     color: #27496d;
     font-family: "Abril Fatface", cursive;
     letter-spacing: 1px;
     font-weight: 500;
-}
-.ServicesEnd .Enquiry-emailBtn {
+  }
+  .ServicesEnd .Enquiry-emailBtn {
     position: relative;
     width: 60vh;
     height: auto;
   }
-.ServicesEnd .Enquiry-emailBtn input {
+  .ServicesEnd .Enquiry-emailBtn input {
     width: 60%;
     height: 6vh;
     position: relative;
     border: none;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px;
     padding: 0px 15px;
     margin: 10px 0px;
-    right: -13px;
+    right: -25px;
     box-shadow: 8px 5px 11px #80808091;
   }
- .ServicesEnd .Enquiry-emailBtn input:focus{
+  .ServicesEnd .Enquiry-emailBtn input:focus {
     outline: none;
   }
-.ServicesEnd .Enquiry-emailBtn input::placeholder {
+  .ServicesEnd .Enquiry-emailBtn input::placeholder {
     font-weight: bold;
     font-size: 15px;
     color: rgb(180, 180, 180);
   }
-.ServicesEnd .Enquiry-emailBtn .Demo-btn {
+  .ServicesEnd .Enquiry-emailBtn .Demo-btn {
     width: auto;
     height: 6vh;
     position: relative;
@@ -55,6 +56,69 @@
     color: white;
     background-color: #e23e57;
   }
-.ServicesEnd .Enquiry-emailBtn .Demo-btn:hover {
+  .ServicesEnd .Enquiry-emailBtn .Demo-btn:hover {
     cursor: pointer;
   }
+}
+@media only screen and (max-width: 780px) {
+  .ServicesEnd {
+    position: relative;
+    top: 5vh;
+  }
+  .ServicesEnd-Context {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+  }
+  .ServicesEnd-Context h1 {
+    color: #27496d;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+  .ServicesEnd .Enquiry-emailBtn {
+    position: relative;
+    width: 60vh;
+    height: auto;
+  }
+  .ServicesEnd .Enquiry-emailBtn input {
+    width: 80%;
+    height: 6vh;
+    position: relative;
+    border: none;
+    border-radius: 20px;
+    padding: 0px 15px;
+    margin: 10px 0px;
+    /* right: -33px; */
+    box-shadow: 8px 5px 11px #80808091;
+  }
+  .ServicesEnd .Enquiry-emailBtn input:focus {
+    outline: none;
+  }
+  .ServicesEnd .Enquiry-emailBtn input::placeholder {
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+  }
+  .ServicesEnd .Enquiry-emailBtn .Demo-btn {
+    width: auto;
+    height: 6vh;
+    position: relative;
+    /* left: -30px; */
+    padding: 10px 25px;
+    border: 1px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    background-color: #e23e57;
+  }
+  .ServicesEnd .Enquiry-emailBtn .Demo-btn:hover {
+    cursor: pointer;
+  }
+}

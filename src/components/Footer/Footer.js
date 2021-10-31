@@ -19,9 +19,9 @@ function Footer() {
           </a>
         </div>
         <div className="rightContext">
-          <img src="https://img.icons8.com/ios-filled/24/ffffff/facebook--v1.png" alt="Socialmedia Icon" />
-          <img src="https://img.icons8.com/ios-filled/24/ffffff/twitter--v1.png" alt="Socialmedia Icon" />
-          <img src="https://img.icons8.com/ios-filled/24/ffffff/linkedin--v1.png" alt="Socialmedia Icon" />
+          <img src="https://img.icons8.com/ios-filled/20/ffffff/facebook--v1.png" alt="Socialmedia Icon" />
+          <img src="https://img.icons8.com/ios-filled/20/ffffff/twitter--v1.png" alt="Socialmedia Icon" />
+          <img src="https://img.icons8.com/ios-filled/20/ffffff/linkedin--v1.png" alt="Socialmedia Icon" />
         </div>
       </div>
     </div>

@@ -1,40 +1,85 @@
-.ServicesTop-Container {
-  position: relative;
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 5vh 0px;
+@media only screen and (min-width: 780px) {
+  .ServicesTop-Container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vh 0px;
+  }
+  .Container {
+    position: relative;
+    width: 70%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10vh;
+    padding: 0px 20vh;
+  }
+  .Container img {
+    margin: 5vh 10vh;
+  }
+  .Container .Content {
+    position: relative;
+    width: 40vh;
+    height: auto;
+    /* border: 2px solid red; */
+  }
+  .Container .Content h1 {
+    margin: 20px 0px;
+    font-family: "Abril Fatface", cursive;
+    color: #27496d;
+    letter-spacing: 1px;
+  }
+  .Container .Content p {
+    font-size: 16px;
+    color: #27496dde;
+  }
 }
-.Container {
-  position: relative;
-  width: 70%;
-  /* border: 2px solid blue; */
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-bottom: 10vh;
-  padding: 0px 20vh;
-}
-.Container img {
-  margin: 5vh 10vh;
-}
-.Container .Content {
-  position: relative;
-  width: 40vh;
-  height: auto;
-  /* border: 2px solid red; */
-}
-.Container .Content h1 {
-  margin: 20px 0px;
-  font-family: "Abril Fatface", cursive;
-  color: #27496d;
-  letter-spacing: 1px;
-}
-.Container .Content p {
-  font-size: 16px;
-  color: #27496dde;
+
+@media only screen and (max-width: 780px) {
+  .ServicesTop-Container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin: 10vh 0px; */
+  }
+  .Container {
+    position: relative;
+    /* width: 100%; */
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10vh;
+    /* padding: 0px 20vh; */
+  }
+  .Container img {
+    margin: 5vh 10vh;
+  }
+  .Container .Content {
+    position: relative;
+    width: 40vh;
+    height: auto;
+    /* border: 2px solid red; */
+  }
+  .Container .Content h1 {
+    margin: 20px 0px;
+    font-family: "Abril Fatface", cursive;
+    color: #27496d;
+    letter-spacing: 1px;
+  }
+  .Container .Content p {
+    font-size: 16px;
+    color: #27496dde;
+  }
 }

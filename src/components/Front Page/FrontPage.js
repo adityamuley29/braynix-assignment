@@ -1,6 +1,7 @@
 import React from "react";
 import "./FrontPage.css";
 import NavBar from "../NavBar/NavBar";
+import Phone from "./phone-ui.png"
 
 function FrontPage() {
   return (
@@ -27,7 +28,7 @@ function FrontPage() {
           </div>
         </div>
         <div className="right-content">
-          <img src="" alt="phone img here" />
+          <img src={Phone} alt="phone img here" />
         </div>
       </div>
     </div>
