@@ -1,0 +1,93 @@
+.WorkWith-Container {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-color: #082032;
+}
+.WorkWith-backgroundCircle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  background-color: #2c394b;
+}
+.WorkWith-Container .WorkWith-Content {
+  position: relative;
+  /* z-index: -1; */
+  color: white;
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* height: 100%; */
+  padding: 4vh 15vh;
+  /* border: 2px solid red; */
+}
+.WorkWith-Container .WorkWith-Content .left-container {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 30px;
+  /* border: 2px solid blue; */
+}
+.left-container .left-heading {
+  margin-bottom: 2vh;
+}
+.left-container .left-SubHeading {
+  margin-bottom: 2vh;
+  color: #f0f5f9c9;
+  font-size: 13px;
+  word-spacing: 1px;
+}
+.left-container .left-aboutBtn {
+  width: 30%;
+  height: 20%;
+  padding: 8px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+}
+.left-container .left-aboutBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  font-size: 11px;
+  font-weight: bold;
+  color: #082032;
+  transition: 0.2s;
+}
+.WorkWith-Container .WorkWith-Content .right-container {
+  position: relative;
+  width: 70vh;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 15vh);
+  column-gap: 8vh;
+  /* border: 2px solid royalblue; */
+  justify-content: center;
+}
+.right-container .logo-container {
+  position: relative;
+  display: flex;
+
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+.right-container .company-logo {
+  position: relative;
+  color: grey;
+  /* width: 20vh; */
+  margin: 0px 10px;
+}

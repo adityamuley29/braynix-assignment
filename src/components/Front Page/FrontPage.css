@@ -1,0 +1,134 @@
+.main-FrontPage {
+  position: relative;
+  background-color: #f0f5f9;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.FrontPage-backgroundCircle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(166px, -77px);
+  width: 105vh;
+  height: 97vh;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #c9d6df;
+}
+.main-FrontPage-Contenent {
+  position: absolute;
+  width: 100%;
+  /* height: 80%; */
+  top: 20vh;
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+/* main left content start */
+
+.main-FrontPage-Contenent .left-content {
+  position: relative;
+  width: 100vh;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  padding-left: 15vh;
+  padding-bottom: 10vh;
+  /* border: 2px solid red; */
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-FrontPage-Contenent .left-content .FrontPage-slogen {
+  margin: 4vh 0vh;
+  font-size: 30px;
+}
+.main-FrontPage-Contenent .left-content .FrontPage-slogen h1 {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 100;
+  color: #27496d;
+}
+.left-content .FrontPage-Enquiry {
+  position: relative;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+}
+.left-content .FrontPage-Enquiry .Enquiry-emailBtn {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.left-content .FrontPage-Enquiry .Enquiry-emailBtn input {
+  width: 60%;
+  height: 6vh;
+  border: none;
+  border-radius: 20px;
+  padding: 0px 15px;
+  margin: 10px 0px;
+}
+.left-content .FrontPage-Enquiry .Enquiry-emailBtn input:focus {
+  outline: none;
+}
+.left-content .FrontPage-Enquiry .Enquiry-emailBtn input::placeholder {
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(180, 180, 180);
+}
+.left-content .FrontPage-Enquiry .Enquiry-emailBtn .Demo-btn {
+  width: auto;
+  height: 6vh;
+  position: relative;
+  left: -30px;
+  padding: 10px 25px;
+  border: 1px;
+  border-radius: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: white;
+  background-color: #e23e57;
+}
+.left-content .FrontPage-Enquiry .Enquiry-emailBtn .Demo-btn:hover {
+  cursor: pointer;
+}
+
+.left-content .FrontPage-Enquiry span {
+  position: relative;
+  left: 14px;
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(180, 180, 180);
+}
+.left-content .FrontPage-Enquiry span a {
+  color: #27496d;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+/* mainright content start here */
+
+.main-FrontPage-Contenent .right-content {
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+.main-FrontPage-Contenent .right-content img {
+  position: relative;
+  width: 35vh;
+  /* height: 40vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 20vh; */
+}

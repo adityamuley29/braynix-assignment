@@ -1,0 +1,28 @@
+.Services-mainContainer {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-color: #f0f5f9;
+  overflow: hidden;
+  /* border: 2px solid black; */
+  /* margin-bottom: 10vh; */
+}
+.Services-backgroundCircle {
+  position: absolute;
+  top: 40%;
+  right: 0;
+  background-color: #c9d6df;
+  transform: scale(2.5);
+  width: 155px;
+  height: 193px;
+  border-top-left-radius: 110px;
+  border-bottom-left-radius: 110px;
+  border-right: 0;
+}
+.Services-Content {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  /* border: 2px solid red; */
+  padding: 15vh 0vh;
+}
