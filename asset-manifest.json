@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/braynix-assignment/static/css/main.f1c912ce.chunk.css",
+    "main.js": "/braynix-assignment/static/js/main.7a3dc6e1.chunk.js",
+    "main.js.map": "/braynix-assignment/static/js/main.7a3dc6e1.chunk.js.map",
+    "runtime-main.js": "/braynix-assignment/static/js/runtime-main.2d43d1c1.js",
+    "runtime-main.js.map": "/braynix-assignment/static/js/runtime-main.2d43d1c1.js.map",
+    "static/js/2.49351e4f.chunk.js": "/braynix-assignment/static/js/2.49351e4f.chunk.js",
+    "static/js/2.49351e4f.chunk.js.map": "/braynix-assignment/static/js/2.49351e4f.chunk.js.map",
+    "static/js/3.90d3f67e.chunk.js": "/braynix-assignment/static/js/3.90d3f67e.chunk.js",
+    "static/js/3.90d3f67e.chunk.js.map": "/braynix-assignment/static/js/3.90d3f67e.chunk.js.map",
+    "index.html": "/braynix-assignment/index.html",
+    "static/css/main.f1c912ce.chunk.css.map": "/braynix-assignment/static/css/main.f1c912ce.chunk.css.map",
+    "static/js/2.49351e4f.chunk.js.LICENSE.txt": "/braynix-assignment/static/js/2.49351e4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d43d1c1.js",
+    "static/js/2.49351e4f.chunk.js",
+    "static/css/main.f1c912ce.chunk.css",
+    "static/js/main.7a3dc6e1.chunk.js"
+  ]
+}
