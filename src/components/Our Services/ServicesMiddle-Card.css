@@ -1,0 +1,38 @@
+.ServicesMiddle-Context{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vh;
+    margin: 0px 3vh;
+    /* border: 2px solid black; */
+    padding: 10px;
+
+}
+.ServicesMiddle-Context .Context-imageDiv{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #27496d;
+    margin-bottom: 20px;
+}
+.ServicesMiddle-Context .Context-imageDiv img{
+    top: 13px;
+    left: 13px;
+    position: relative;
+    width: 30px;
+    color: white;
+}
+.ServicesMiddle-Context h2{
+    color: #27496d;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.ServicesMiddle-Context p{
+    font-size: 14px;
+    color: #27496da4;
+    text-align: center;
+    font-weight: bold;
+}
