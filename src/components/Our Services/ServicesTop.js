@@ -1,11 +1,12 @@
 import React from "react";
 import "./ServicesTop.css";
+import test from "./test.jpg"
 
 function ServicesTop() {
   return (
     <div className="ServicesTop-Container">
       <div className="Container" id="Container1">
-        <img src="" alt="Code templete here" />
+        <img src={test} alt="Code templete here" />
         <div className="Content">
           <h1>Easy to implement</h1>
           <p>
@@ -22,7 +23,7 @@ function ServicesTop() {
             Our pre-build form is easy to integrate in your app or website's checkout flow and designed to opetimize conversion.
           </p>
         </div>
-        <img src="" alt="Phone templete here" />
+        <img src={test} alt="Phone templete here" />
       </div>
     </div>
   );
